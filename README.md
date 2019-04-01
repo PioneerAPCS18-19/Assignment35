@@ -5,7 +5,7 @@ For this assignment you will create a program to simulate volleyball and racquet
 Using the structure discussed in class and given in the skeleton given on Github, complete the program to perform a full simulation.
 See the starter code on Github for specific directions.
 
-### Game Structure
+### Game Outline
 
 General outline of a Volleyball or Racquetball game:
 
@@ -31,9 +31,9 @@ else
 
 1. Your code must use two classes.
 2. Your code must throw an error when the user inputs information incorrectly. 
-    a. Must only take "volleyball" or "racquetball".
-    b. Probability must be between 0 and 1.
-    c. Number of simulations > 0.
+    -Must only take "volleyball" or "racquetball".
+    -Probability must be between 0 and 1.
+    -Number of simulations > 0.
 3. Your code must print the winner of each game and give a win percentage at the end (as shown in the sample outputs)..
 
 ### Sample Outputs
