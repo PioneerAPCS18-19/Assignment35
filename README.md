@@ -29,12 +29,12 @@ else
 
 #### Important Notes for Grading
 
--Your code must use two classes.
--Your code must throw an error when the user inputs information incorrectly. 
-    -Must only take "volleyball" or "racquetball".
-    -Probability must be between 0 and 1.
-    -Number of simulations > 0.
--Your code must print the winner of each game and give a win percentage at the end (as shown in the sample outputs)..
+- Your code must use two classes.
+- Your code must throw an error when the user inputs information incorrectly. 
+    - Must only take "volleyball" or "racquetball".
+    - Probability must be between 0 and 1.
+    - Number of simulations > 0.
+- Your code must print the winner of each game and give a win percentage at the end (as shown in the sample outputs)..
 
 ### Sample Outputs
 
