@@ -2,10 +2,23 @@
 
 For this assignment you will create a program to simulate volleyball and racquetball matches. The simulation of matches will be done using recursion.
 
-Using the structure discussed in class and given in the skeleton given on Github, complete the program to perform a full simulation.
-See the starter code on Github for specific directions.
+Using the structure discussed in class and given in the skeleton given on Github, complete the program to perform a full simulation. See the starter code on Github for specific directions.
 
-### Game Outline
+### Game Rules
+
+In the past, a team only scored points while it serves and wins volleys. When a team loses a volley, it loses the serve, but no points are scored (these are the rules we will use for this project).Both racquetball and volleyball are played by two players or teams. Scoring proceeds as follows:
+
+The score starts at 0-0.
+Team A starts serving.
+	When Team A wins a volley, A scores a point and is allowed to serve again.
+	When Team A loses a volley, A loses the serve, but no points are scored.
+Team B starts serving.
+	When Team B wins a volley, B scores a point and is allowed to serve again.
+	When Team B loses a volley, B loses the serve, but no points are scored.
+
+In racquetball, the first team to reach 15 points wins; in volleyball, a team wins when it reaches 25 points, but must win by at least 2 points. For example, if the score is 15-14, the team with 15 points wins immediately in racquetball. If it is 25-24 in volleyball, play must continue until one team leads by 2 points.
+
+### Pseudocode Outline
 
 General outline of a Volleyball or Racquetball game:
 
@@ -27,7 +40,7 @@ else
 
 &nbsp;&nbsp;&nbsp;&nbsp;other team serves
 
-#### Important Notes for Grading
+### Specifications
 
 - Your code must use two classes.
 - Your code must throw an error when the user inputs information incorrectly. 
